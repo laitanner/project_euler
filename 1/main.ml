@@ -2,8 +2,6 @@
 
 Find the sum of all the multiples of 3 or 5 below 1000. *)
 
-open List
-
 let upperbound = 999;;
 
 let rec multiples (start : int) (accum : int) : int =
